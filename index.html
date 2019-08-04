@@ -35,6 +35,10 @@
     </p>
 
     <div id="issMap"></div>
+    <hr />
+    <footer>
+      &copy; Júlio - 2019
+    </footer>
 
     <script>
       // Making a map and tiles
@@ -67,8 +71,8 @@
           mymap.setView([latitude, longitude], 2);
           firstTime = false;
         }
-        document.getElementById("lat").textContent = latitude.toFixed(2);
-        document.getElementById("lon").textContent = longitude.toFixed(2);
+        document.getElementById("lat").textContent = latitude.toFixed(2) + "°";
+        document.getElementById("lon").textContent = longitude.toFixed(2) + "°";
       }
 
       getISS();

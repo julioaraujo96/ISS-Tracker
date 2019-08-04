@@ -7,7 +7,7 @@
 }
 
 html {
-  background: url(/img/background.jpg) no-repeat center center fixed;
+  background: url(../img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,6 +45,7 @@ p {
 hr {
   margin-top: 2rem;
 }
+
 footer {
   text-align: center;
   margin: 1rem 0;
